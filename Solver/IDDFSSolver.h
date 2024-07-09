@@ -18,7 +18,7 @@ private:
 public:
     T rubiksCube;
 
-    IDDFSSolver(T _rubiksCube. int _max_search_depth = 7) {
+    IDDFSSolver(T _rubiksCube, int _max_search_depth = 7) {
         rubiksCube = _rubiksCube;
         max_search_depth = _max_search_depth;
     }
